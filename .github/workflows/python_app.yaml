@@ -60,5 +60,11 @@ jobs:
 
 
     # TODO: Add steps to run formatting steps and type checking
-    - name: Formatting 
+    - name: Formatting with ruff
       run: uvx ruff format --check 
+
+    - name: Sort Imports with ruff
+      run: uvx isort . --check
+
+    - name: Type checking
+      run: uvx ty check

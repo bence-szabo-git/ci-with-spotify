@@ -69,3 +69,4 @@ jobs:
     # TODO: Add steps to run formatting steps and type checking
     - name: Formatting 
     - run: uvx run format 
+          uvx ty check

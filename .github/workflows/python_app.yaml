@@ -67,5 +67,5 @@ jobs:
 
 
     # TODO: Add steps to run formatting steps and type checking
-    - name:
+    - name: Formatting 
     - run: uvx run format 
